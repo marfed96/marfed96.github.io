@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #222;
+    --secondary-color: #fff;
+    --accent-color: orangered;
+    --font-large: 2.5rem;
+    --font-medium: 1.4rem;
+    --header-color: #333;
+    --text-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--text-color);
+    font-family: "VT323", monospace;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--accent-color);
+    transition: 0.2s ease-in-out;
+}

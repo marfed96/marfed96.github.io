@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    position: sticky;
+    top: 0;
+    max-height: 80px;
+    min-height: 80px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 95vw;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.nav-link {
+    font-size: var(--font-medium);
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--font-large);
+    margin: 20px;
+    text-decoration: underline;
+}
+
+h1 span {
+    font-size: var(--font-medium);
+}
